@@ -1,0 +1,568 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ExportWindow</class>
+ <widget class="QDialog" name="ExportWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>883</width>
+    <height>764</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>ExportWindow</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout_5" stretch="15,0">
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_4">
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout_2" stretch="5,1">
+       <item>
+        <widget class="QGroupBox" name="groupBoxCustom">
+         <property name="enabled">
+          <bool>true</bool>
+         </property>
+         <property name="title">
+          <string/>
+         </property>
+         <property name="checked">
+          <bool>false</bool>
+         </property>
+         <layout class="QVBoxLayout" name="verticalLayout">
+          <item>
+           <widget class="QLabel" name="labelSelection">
+            <property name="text">
+             <string>Çıktıya Eklenecek Alanları Seçiniz</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QListWidget" name="listWidgetSelection">
+            <property name="enabled">
+             <bool>true</bool>
+            </property>
+            <item>
+             <property name="text">
+              <string>Üye No</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>Üye Adı</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>Üye Soyadı</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>Üye Kayıt Tarihi</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>Üye Türü</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>Üye Adresi</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>Üye Cep Tel</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>Üye Kan Grubu</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>Üye E-Posta</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>Üye Doğum Tarihi</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>Üye Eğitim Derecesi</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>Üye Eğitim Durumu</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>Üye Mesleği</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>Üye Cinsiyeti</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>Üye Medeni Hali</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>İmza</string>
+             </property>
+            </item>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="label">
+            <property name="text">
+             <string>Listeye Eklenecek Üyeler</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QComboBox" name="comboBox">
+            <item>
+             <property name="text">
+              <string>Tüm Üyeler</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>Aktif Üyeler</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>Pasif Üyeler</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>Kadın Üyeler</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>Erkek Üyeler</string>
+             </property>
+            </item>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item>
+        <widget class="QGroupBox" name="groupBox">
+         <property name="title">
+          <string>Toplantı Dökümanları</string>
+         </property>
+         <layout class="QHBoxLayout" name="horizontalLayout_3">
+          <item>
+           <layout class="QVBoxLayout" name="verticalLayout_6">
+            <item>
+             <widget class="QLabel" name="labelSel">
+              <property name="text">
+               <string>Katılımcı / Sayfa Sayısı</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QComboBox" name="comboBoxSelectPage">
+              <item>
+               <property name="text">
+                <string>1 - 42 Kişi        [1.Sayfa]</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>43 - 88 Kişi      [2.Sayfa]</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>89 -134 Kişi     [3.Sayfa]</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>135 -180 Kişi   [4.Sayfa]</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>181 - 226 Kişi  [5.Sayfa]</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>227 - 272 Kişi  [6.Sayfa]</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>273 - 293 Kişi  [7.Sayfa]</string>
+               </property>
+              </item>
+             </widget>
+            </item>
+            <item>
+             <widget class="QToolButton" name="toolButtonMeeting">
+              <property name="enabled">
+               <bool>true</bool>
+              </property>
+              <property name="layoutDirection">
+               <enum>Qt::LeftToRight</enum>
+              </property>
+              <property name="text">
+               <string>   Katılım Listesi </string>
+              </property>
+              <property name="icon">
+               <iconset resource="../Resources/bys.qrc">
+                <normaloff>:/Fotos/print.ico</normaloff>:/Fotos/print.ico</iconset>
+              </property>
+              <property name="iconSize">
+               <size>
+                <width>32</width>
+                <height>32</height>
+               </size>
+              </property>
+              <property name="toolButtonStyle">
+               <enum>Qt::ToolButtonTextBesideIcon</enum>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+         </layout>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout_4" stretch="1,0,2">
+       <item>
+        <spacer name="verticalSpacer">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>20</width>
+           <height>40</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item>
+        <widget class="QToolButton" name="toolButtonInsert">
+         <property name="enabled">
+          <bool>false</bool>
+         </property>
+         <property name="layoutDirection">
+          <enum>Qt::RightToLeft</enum>
+         </property>
+         <property name="text">
+          <string>         Ekle</string>
+         </property>
+         <property name="icon">
+          <iconset resource="../Resources/bys.qrc">
+           <normaloff>:/Fotos/play.png</normaloff>:/Fotos/play.png</iconset>
+         </property>
+         <property name="iconSize">
+          <size>
+           <width>32</width>
+           <height>32</height>
+          </size>
+         </property>
+         <property name="toolButtonStyle">
+          <enum>Qt::ToolButtonTextBesideIcon</enum>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <spacer name="verticalSpacer_2">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>20</width>
+           <height>40</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout_3" stretch="8,1,3">
+       <item>
+        <widget class="QListWidget" name="listWidgetSelected"/>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_2" stretch="1,0,0,0,0,1">
+         <item>
+          <spacer name="horizontalSpacer_3">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>40</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item>
+          <widget class="QToolButton" name="toolButtonUp">
+           <property name="enabled">
+            <bool>false</bool>
+           </property>
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="MinimumExpanding" vsizetype="MinimumExpanding">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="text">
+            <string>Yukarı</string>
+           </property>
+           <property name="icon">
+            <iconset resource="../Resources/bys.qrc">
+             <normaloff>:/Fotos/up.ico</normaloff>:/Fotos/up.ico</iconset>
+           </property>
+           <property name="iconSize">
+            <size>
+             <width>32</width>
+             <height>32</height>
+            </size>
+           </property>
+           <property name="toolButtonStyle">
+            <enum>Qt::ToolButtonTextUnderIcon</enum>
+           </property>
+           <attribute name="buttonGroup">
+            <string notr="true">buttonGroup</string>
+           </attribute>
+          </widget>
+         </item>
+         <item>
+          <widget class="QToolButton" name="toolButtonDown">
+           <property name="enabled">
+            <bool>false</bool>
+           </property>
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="MinimumExpanding" vsizetype="MinimumExpanding">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="text">
+            <string>Aşağı</string>
+           </property>
+           <property name="icon">
+            <iconset resource="../Resources/bys.qrc">
+             <normaloff>:/Fotos/down.ico</normaloff>:/Fotos/down.ico</iconset>
+           </property>
+           <property name="iconSize">
+            <size>
+             <width>32</width>
+             <height>32</height>
+            </size>
+           </property>
+           <property name="toolButtonStyle">
+            <enum>Qt::ToolButtonTextUnderIcon</enum>
+           </property>
+           <attribute name="buttonGroup">
+            <string notr="true">buttonGroup</string>
+           </attribute>
+          </widget>
+         </item>
+         <item>
+          <widget class="QToolButton" name="toolButtonDelete">
+           <property name="enabled">
+            <bool>false</bool>
+           </property>
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="MinimumExpanding" vsizetype="MinimumExpanding">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="text">
+            <string>Sil</string>
+           </property>
+           <property name="icon">
+            <iconset resource="../Resources/bys.qrc">
+             <normaloff>:/Fotos/delete.png</normaloff>:/Fotos/delete.png</iconset>
+           </property>
+           <property name="iconSize">
+            <size>
+             <width>32</width>
+             <height>32</height>
+            </size>
+           </property>
+           <property name="toolButtonStyle">
+            <enum>Qt::ToolButtonTextUnderIcon</enum>
+           </property>
+           <attribute name="buttonGroup">
+            <string notr="true">buttonGroup</string>
+           </attribute>
+          </widget>
+         </item>
+         <item>
+          <widget class="QToolButton" name="toolButtonClear">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="MinimumExpanding" vsizetype="MinimumExpanding">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="text">
+            <string>Tümünü Sil</string>
+           </property>
+           <property name="icon">
+            <iconset resource="../Resources/bys.qrc">
+             <normaloff>:/Fotos/delete.png</normaloff>:/Fotos/delete.png</iconset>
+           </property>
+           <property name="iconSize">
+            <size>
+             <width>32</width>
+             <height>32</height>
+            </size>
+           </property>
+           <property name="toolButtonStyle">
+            <enum>Qt::ToolButtonTextUnderIcon</enum>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <spacer name="horizontalSpacer_4">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>40</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <spacer name="verticalSpacer_4">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>20</width>
+           <height>40</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout" stretch="8,1,1">
+     <item>
+      <spacer name="horizontalSpacer">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item>
+      <widget class="QToolButton" name="toolButtonExportExcel">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="MinimumExpanding" vsizetype="MinimumExpanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="layoutDirection">
+        <enum>Qt::LeftToRight</enum>
+       </property>
+       <property name="text">
+        <string> Excel Aktar</string>
+       </property>
+       <property name="icon">
+        <iconset resource="../Resources/bys.qrc">
+         <normaloff>:/Fotos/excel.png</normaloff>:/Fotos/excel.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>32</width>
+         <height>32</height>
+        </size>
+       </property>
+       <property name="toolButtonStyle">
+        <enum>Qt::ToolButtonTextBesideIcon</enum>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QToolButton" name="toolButtonExportPDF">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="MinimumExpanding" vsizetype="MinimumExpanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="layoutDirection">
+        <enum>Qt::LeftToRight</enum>
+       </property>
+       <property name="text">
+        <string> PDF Aktar</string>
+       </property>
+       <property name="icon">
+        <iconset resource="../Resources/bys.qrc">
+         <normaloff>:/Fotos/PDF.ico</normaloff>:/Fotos/PDF.ico</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>32</width>
+         <height>32</height>
+        </size>
+       </property>
+       <property name="toolButtonStyle">
+        <enum>Qt::ToolButtonTextBesideIcon</enum>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="../Resources/bys.qrc"/>
+ </resources>
+ <connections/>
+ <buttongroups>
+  <buttongroup name="buttonGroup"/>
+ </buttongroups>
+</ui>

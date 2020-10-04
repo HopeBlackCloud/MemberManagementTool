@@ -1,0 +1,216 @@
+QMainWindow {
+  /*  background-color: rgb(137, 141, 128);  /*gri
+	background-color: rgb(180, 185, 168);*/
+	background-color: rgb(239, 239, 242);
+	border-top-left-radius: 8px;
+	border-bottom-right-radius: 8px;
+	font: 9pt "MS Shell Dlg 2";
+	font-weight: bold;
+}
+
+QWidget:selected {
+	selection-color: white;
+	selection-background-color: black;
+}
+
+QWidget:disabled {
+	color: rgb(50, 50, 51);
+}
+
+QDialog#MembershipForm {
+	background-color: rgb(255, 255, 255); /*beyaz*/
+	font: 8pt "MS Shell Dlg 2";
+}
+
+QDialog#MembershipCard {
+	background-color: rgb(255, 255, 255); /*beyaz*/
+	font: 9pt "MS Shell Dlg 2";
+}
+
+QTableWidget{	
+	color:white;
+	font: 8pt "MS Shell Dlg 2";
+	font-weight: bold;
+   	background-color: rgb(79, 81, 75);  /*koyu gri*/
+}
+QTableCornerButton:section {
+	color:black;
+	font: 9pt "MS Shell Dlg 2";
+	font-weight: bold;
+	background-color: rgb(168, 172, 157); /*daha açık gri*/
+}
+
+QTableView{	
+	color:white;
+	font: 8pt "MS Shell Dlg 2";
+	font-weight: bold;
+   	background-color: rgb(120, 120, 120);  /*koyu gri*/
+	border: 3px solid rgb(255, 255, 255);
+}
+
+QHeaderView:section {
+	color:white;
+	font: 9pt "MS Shell Dlg 2";
+	font-weight: bold;
+    background-color: rgb(84, 145, 201);  
+}
+
+QToolButton:hover {
+	color: rgb(84, 145, 201);
+	border: 3px solid rgb(84, 145, 201);
+	background-color:  rgb(255, 255, 255);
+}
+QToolButton:pressed {
+	color: rgb(84, 145, 201);
+	border: 3px solid rgb(255, 255, 255);
+	background-color:  rgb(255, 255, 255);
+}
+QToolButton:checked {
+    color: rgb(84, 145, 201);
+	border: 3px solid rgb(255, 255, 255);
+	background-color:  rgb(255, 255, 255);
+}
+QToolButton {
+	font: 9pt "MS Shell Dlg 2";
+	font-weight: bold;
+	color: white;
+	/*background-color:  rgb(0, 122, 204);*/
+	border: 3px solid rgb(255, 255, 255);
+	background-color:  rgb(84, 145, 201);
+	border-radius: 10px;
+}
+
+QToolBox {
+	font: 9pt "MS Shell Dlg 2";
+	font-weight: bold;
+	color: white;
+	background-color:  rgb(104, 33, 122);
+	border: 5px solid  rgb(84, 145, 201);
+	border-radius: 10px;
+}
+QStackedWidget#stackedWidgetMain{
+	font: 9pt "MS Shell Dlg 2";
+	font-weight: bold;
+	color: white;
+	border: 5px solid  rgb(84, 145, 201);
+	border-radius: 10px;
+}
+QGroupBox {
+	/*background: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(239, 239, 239, 255), stop:1 rgba(230, 231, 199, 255));*/
+	/*background-color: rgba(149, 150, 152, 20%);*/
+	/*border: 1px solid rgba(0, 0, 0, 10%);*/
+	/*border-style: inset;*/
+	font: 9pt "MS Shell Dlg 2";
+	font-weight: bold;
+
+	/*border-radius: 10px;*/
+	/*padding: 0 3px;*/
+	/*margin-top = 2px;*/
+}
+QGroupBox::title {
+   	color: rgb(0, 122, 204);
+}
+
+QTextEdit {
+	/*border-radius: 4px;*/
+	padding: 0 3px;
+	margin-left: 13px;	
+	margin-right: 13px;
+	background-color: white;
+	border: 2px solid rgb(60, 60, 60);
+	color: rgb(0, 122, 204);
+	min-height: 22px;
+}
+QTextEdit:focus {
+	/*border-radius: 4px;*/
+	padding: 0 3px;
+	margin-left: 13px;	
+	margin-right: 13px;
+	background-color: white;
+	border: 2px solid rgb(0, 122, 204);
+	color: rgb(0, 122, 204);
+	min-height: 22px;
+}
+QAbstractSpinBox, QLineEdit, QComboBox {
+	border-radius: 4px;
+	/*padding: 0 3px;*/
+	background-color: white; 
+	border: 2px solid rgb(60, 60, 60);
+	color: rgb(0, 122, 204);
+	min-height: 22px;
+}
+
+QLineEdit:focus{
+	border-radius: 4px;
+	/*padding: 0 3px;*/
+	background-color: white; 
+	border: 2px solid rgb(0, 122, 204);
+	color: rgb(0, 122, 204);
+	min-height: 22px;
+}
+
+QComboBox:focus{
+	border-radius: 4px;
+	/*padding: 0 3px;*/
+	background-color: white; 
+	border: 2px solid rgb(0, 122, 204);
+	color: rgb(0, 122, 204);
+	min-height: 22px;
+}
+
+
+QComboBox:!editable {
+	selection-color: red;
+	selection-background-color: blue;
+}
+
+QLabel#UserLoginWindow, QLabel#MembersWindow {
+	font: 9pt "MS Shell Dlg 2";
+	font-weight: bold;
+	color: rgb(0, 122, 204);
+	background-color: none;
+}
+
+QLabel#labelTitle, QLabel#labelMemberRecord,
+QLabel#labelTotalPayments,
+QLabel#labelTotalIncomes,
+QLabel#labelSumIncome,
+QLabel#labelSumOut,
+QLabel#labelTotalExpenses,
+QLabel#labelLast,
+QLabel#labelTotalKasa,
+QLabel#labelUserName,
+QLabel#labelUserCode,
+QLabel#labelDBStatus
+{
+	font: 9pt "MS Shell Dlg 2";
+	font-weight: bold;
+	color: white;
+	background-color: rgb(0, 122, 204); /* Açık mavi */
+	border: 3px solid rgb(255, 255, 255);
+}
+
+QLabel#labelMemberCount, QLabel#labelSelectMembers, QLabel#labelGroupList, QLabel#labelMemeberList, QLabel#labelSMSText, 
+QLabel#labelMemberSendSMS, QLabel#labelCount, QLabel#labelMembers, QLabel#labelDateTime, QLabel#labelCopyRight, 
+QLabel#labelLicence, QLabel#labelSel, QLabel#labelSelection {
+	font: 9pt "MS Shell Dlg 2";
+	font-weight: bold;
+	color: white;
+	/* background-color: rgb(104, 33, 122); Mor */
+	background-color: rgb(84, 145, 201); /* Açık mavi */
+	border: 3px solid rgb(255, 255, 255);
+	}
+
+QLabel#labelFoto, QLabel#labelFoundationName{
+	font: 9pt "MS Shell Dlg 2";
+	font-weight: bold;
+	color: rgb(84, 145, 201);
+	border: 5px solid  rgb(84, 145, 201);
+	border-radius: 10px;
+}
+
+QFrame#frame{
+	border: 5px solid  rgb(84, 145, 201);
+	border-radius: 10px;
+}
+

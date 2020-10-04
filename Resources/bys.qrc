@@ -1,0 +1,47 @@
+<RCC>
+  <qresource prefix="Style">
+    <file>bys.qss</file>
+  </qresource>
+  <qresource prefix="Fotos">
+    <file>excel.png</file>
+    <file>trash_can.png</file>
+    <file>users_comments.png</file>
+    <file>yonetim.ico</file>
+    <file>book.png</file>
+    <file>mail_send.png</file>
+    <file>yellow_mail_send.png</file>
+    <file>calculator.png</file>
+    <file>business_female_male_users.png</file>
+    <file>sms.png</file>
+    <file>add_business_user.png</file>
+    <file>log.ico</file>
+    <file>aidat.ico</file>
+    <file>Administrative .ico</file>
+    <file>Application.ico</file>
+    <file>Cash.ico</file>
+    <file>close.ico</file>
+    <file>Contacts.png</file>
+    <file>delete.png</file>
+    <file>down.ico</file>
+    <file>Email.png</file>
+    <file>envanter.ico</file>
+    <file>info.ico</file>
+    <file>Lock.ico</file>
+    <file>Locker.ico</file>
+    <file>mail.ico</file>
+    <file>Message.png</file>
+    <file>pc.ico</file>
+    <file>PDF.ico</file>
+    <file>Phone.png</file>
+    <file>pic.ico</file>
+    <file>play.png</file>
+    <file>print.ico</file>
+    <file>question.ico</file>
+    <file>refresh.ico</file>
+    <file>search.png</file>
+    <file>search_business_user.png</file>
+    <file>up.ico</file>
+    <file>setti.ico</file>
+    <file>User.ico</file>
+  </qresource>
+</RCC>
